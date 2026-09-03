@@ -1,0 +1,5 @@
+target/
+*.class
+nb-configuration.xml
+nbactions.xml
+.DS_Store

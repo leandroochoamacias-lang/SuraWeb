@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS sura;
+USE sura;
+
+CREATE TABLE IF NOT EXISTS paciente1 (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    NOMBRE VARCHAR(100) NOT NULL,
+    APELLIDO VARCHAR(100) NOT NULL,
+    EDAD INT NOT NULL
+);
+
+-- Datos de prueba opcionales:
+INSERT INTO paciente1 (NOMBRE, APELLIDO, EDAD)
+VALUES ('Juan', 'Pérez', 30),
+       ('María', 'Gómez', 25);
